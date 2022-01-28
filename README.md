@@ -1,4 +1,24 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA London React Template
+# Rick-and-Morty-Website
+
+Project 2
+
+## Brief 
+
+Create a React application that consumes a public API, utilising the knowledge gained from the first five weeks of the SEI course. The React application must have several components and a router with several "pages".
+
+Paired project. 
+
+Timeframe: 2 days.
+
+
+
+## Deployment
+Please follow this link to view the Project: https://rick-and-morty-sei61.netlify.app/character
+
+Repository link: https://github.com/PeterBid/rick-and-morty-website
+
+
+
 
 ## Using NPM
 
