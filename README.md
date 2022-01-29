@@ -17,6 +17,21 @@ Please follow this link to view the Project: https://rick-and-morty-sei61.netlif
 
 Repository link: https://github.com/PeterBid/rick-and-morty-website
 
+## Frameworks
+
+* Languages
+* React
+* JSX
+* SCSS
+* BootStrap
+* JavaScript
+* CSS3
+* HTML5
+* VS Code
+* Chrome
+* Browser
+* Git and GitHub    
+
 
 
 
