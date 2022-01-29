@@ -13,7 +13,7 @@ Timeframe: 2 days.
 
 
 ## Deployment
-Please follow this link to view the Project: https://rick-and-morty-sei61.netlify.app/character
+Please follow this link to view the Project: https://rick-and-morty-sei61.netlify.app/
 
 Repository link: https://github.com/PeterBid/rick-and-morty-website
 
