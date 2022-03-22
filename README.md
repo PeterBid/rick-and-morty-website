@@ -68,7 +68,7 @@ Afterwards we tested the API's responses and reaching specific endpoints by usin
 
 Upon targeting each endpoint we then mapped out how we wished the site to look. We decided to keep our application simple with just a few "pages" so we could focus on it on reaching the minimum viable product and have something looking well polished with the features are working as intended in the timeframe.
 
-We also decided to use VSCode Liveshare for this project so we can collaboratively work on the same code base together. It helped us considerably as we could easily spot whether anything was missing in our code, and we could debug our code faster by doing it together. We also effectively consolidated our knowledge together with this coding approach.
+We also decided to use VSCode Liveshare for this project so we can collaboratively work on the same code base together. It helped us considerably as we could easily spot whether anything was missing in our code, and we could debug our code faster by doing it together. We also effectively consolidated our knowledge together with this approach.
 
 #### Wire Frame
 
