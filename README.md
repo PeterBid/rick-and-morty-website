@@ -44,7 +44,6 @@ Start server with `yarn start`.
 * Axios
 * SCSS
 * CSS
-* BootStrap
 * JavaScript
 * HTML5
 * Yarn
@@ -80,3 +79,13 @@ We also decided to use VSCode Liveshare for this project so we can collaborative
 <img width="536" alt="Screen Shot 2022-01-26 at 15 28 32" src="https://user-images.githubusercontent.com/91087641/159555394-e01299a3-a4b5-47db-b878-6506d7279022.png">
 
 <img width="603" alt="Screen Shot 2022-01-26 at 15 22 02" src="https://user-images.githubusercontent.com/91087641/159555458-7ddc2969-09a1-4173-b5c4-9b2f78cc5ebc.png">
+
+### Creating the Front End
+
+#### Styling and Audio
+
+This was the first project in which I worked with the `SCSS`. `SCSS` made styling the and positioning `HTML` elements much easier and smoother as we could use a wide range of colours and styles for classes quickly and effectively across the site. 
+
+We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasize this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
+
+We also added different sound effects from the show, the choice of these were tailored specific functions to enchance the user experiance. For example choosing Morty saying "What's you name?" when the user clicks to search a character by name.
