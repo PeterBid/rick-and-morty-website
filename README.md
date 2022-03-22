@@ -80,7 +80,7 @@ We also decided to use VSCode Liveshare for this project so we can collaborative
 
 <img width="603" alt="Screen Shot 2022-01-26 at 15 22 02" src="https://user-images.githubusercontent.com/91087641/159555458-7ddc2969-09a1-4173-b5c4-9b2f78cc5ebc.png">
 
-### Creating the Front End
+### Creating the Front End with React
 
 #### Styling and Audio
 
