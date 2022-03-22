@@ -1,6 +1,6 @@
 # Rick-and-Morty-Website
 
-Project 2
+### General Assembly Project 2
 
 ## Brief 
 
