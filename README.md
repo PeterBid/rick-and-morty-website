@@ -4,8 +4,6 @@
 
 <img width="1423" alt="Screen Shot 2022-03-22 at 16 16 42" src="https://user-images.githubusercontent.com/91087641/159525827-4ce2dbac-e8ca-4cc8-9b59-320d92192c95.png">
 
-![rickgif](https://user-images.githubusercontent.com/91087641/159532205-d49b8be9-9264-46c2-825d-fc380eb3b7ba.gif)
-
 
 ## Brief 
 
