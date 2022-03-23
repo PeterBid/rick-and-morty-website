@@ -141,7 +141,7 @@ A `useState` of `searchTerm` alongside a text form targeting what users typed as
 
 * Character Show
  
-We used the `id` of each character to create a `characterID` which then used with `useParams` created links to the `CharacterShow` component. This was then used to return specific information related to each character.
+We used the `id` of each character to create a `characterID` which then used with `useParams` created links to the `CharacterShow` component. If a user clicks on an individual character, they are redirected to a page with detailed information about that character. This was then used to return specific information related to each character.
 
 ```javascript
  const { characterId } = useParams()
@@ -170,4 +170,42 @@ This was the first project in which I worked with the `SCSS`. `SCSS` made stylin
 
 We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasize this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
 
-We also added different sound effects from the show, the choice of these were tailored specific functions to enchance the user experiance. For example choosing Morty saying "What's you name?" when the user clicks to search a character by name.
+We also added different sound effects from the show using the `useSound` package, the choice of these were tailored specific functions to enchance the user experiance. For example choosing Morty saying "What's you name?" when the user clicks to search a character by name.
+
+## Challenges and Wins
+
+#### Challenges
+
+Managing the short time in which to do the project. As this was only a 2 day project we had to rush alot even with the planning we had made. There were also additional features we wish to put in but had to be pragmatic to ensure we were focused on reaching the minimum viable product in the time frame.
+
+Ensuring we had access to data endpoints deep down in the API for the character show page. Altough it took longer than anticipated we learnt alot about accessing and retriving data from API's generally.
+
+Responsive styling. As we built the site for desktop we ran out of time to implement responsive styling, therefore the components are not formatted correctly on moblie. On hindsight we would have planned for a mobile view from the start.
+
+  
+#### Wins
+
+Planning. Having an effective and well thought out outline and plan of how to reach my minimum viable project really helped. This was especially emphasized with the time limit. It made the project even when we had to rush feel considerably less stressful. This was because we had clear objectives to aim towards, breaking the overall project down into much manageable bite-sized chunks.
+
+Getting comfortable with adding unique gifs, importing images and gifs such as the spinner and using useSound package to add fun interactive aspects to overall user experience.
+
+First pair coded project. I took great advantage of working with someone else sharing experience and different coding styles, while trying to collaboratively problem solve and taking advantage of VScode Liveshare. Thor and I were always in sync and found that bouncing personal ideas off each other always resulted in something better and it helped fixed errors considerably quicker too.
+
+## Future Improvements
+
+Make the project responsive to different screen sizes especially mobile.
+
+Improving the filter functionality. This is so characters could be filtered on the basis of more conditions, not only on by name.
+
+As well as a Characters API the Rick and Morty API Documentation also had a seperate Location and Episode API. Acessing these API's with Get requests and having seperate index pages and show pages related to these API's as a way to expand the scale of the site. 
+
+
+## Key Learnings
+
+
+
+## Contact
+
+Social - www.linkedin.com/in/peter-bid
+
+Email - peterbid21@gmail.com
