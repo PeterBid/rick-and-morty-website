@@ -86,17 +86,7 @@ We also decided to use VSCode Liveshare for this project so we can collaborative
 
 * Character Index
 
-For displaying the characters, we created two components, the first component is CharacterIndex. We used used flexbox to display the characters in a grid. We used UseParams to then create links to the CharacterShow component which displayed specific information about each character.
-
-
-#### Styling and Audio
-
-This was the first project in which I worked with the `SCSS`. `SCSS` made styling the `CSS` and positioning `HTML` elements much easier and smoother as we could use a wide range of colours and styles for classes quickly and effectively across the site. 
-
-We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasize this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
-
-We also added different sound effects from the show, the choice of these were tailored specific functions to enchance the user experiance. For example choosing Morty saying "What's you name?" when the user clicks to search a character by name.
-
+For displaying the characters we created two components. The first component is `CharacterIndex`. After a using a `get` axios request to recieve the data we used the `map` method alongside `flexbox` to display the characters in a grid. 
 ```javascript
 useEffect(() => {
     const getCharacters = async () => {
@@ -111,3 +101,69 @@ useEffect(() => {
     getCharacters()
   }, [])
 ```
+<img width="1395" alt="Screen Shot 2022-03-23 at 15 50 47" src="https://user-images.githubusercontent.com/91087641/159740885-4c3e4f9f-203e-4f58-93b9-d212a836f0b1.png">
+
+A `useState` of `searchTerm` alongside a text form targeting what users typed as a search term for character names was used to create a function to `filter` out results for the `map`. 
+
+```javascript
+ <div className='form_container'>
+            <form onSubmit={handleSubmit}>
+              <input type='text' id='charactersubmit' onClick={whatsYourNamePlay} placeholder="Submit a Character" onChange={event => {
+                setSearchTerm(event.target.value)
+              }} ></input>
+            </form>
+          </div>
+          <ul className='characters_list'>
+            <div className='characters_container'>{characters && characters.filter((character) => {
+              if (searchTerm === '') {
+                return character
+              } else if (character.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+                return character 
+              }
+            }).map(character => {
+              const { name, image, species, status, gender, id } = character
+              return (
+                <Link key={id} id="character_link" to={`/character/${character.id}`}>
+                  <div className="character_card" >
+                    <div className="character-name" >{name}</div>
+                    <div className="character-status">Status: {status}</div>
+                    <div className={character.image}><img src={image} /></div>
+                  </div>
+                </Link>
+              )
+            })}
+            </div>
+          </ul>
+```
+<img width="721" alt="Screen Shot 2022-03-23 at 15 51 02" src="https://user-images.githubusercontent.com/91087641/159740977-1a9faa98-597f-40eb-a824-4df71550c7c7.png">
+
+We used the `id` of each character to create a `characterID` which then used with `useParams` created links to the `CharacterShow` component. This was then used to displayed specific information related to each character.
+
+```javascript
+ const { characterId } = useParams()
+
+  useEffect(() => {
+
+    const getSingleCharacter = async () => {
+      try {
+        const { data } = await axios.get(`https://rickandmortyapi.com/api/character/${characterId}`)
+        setCharacter(data)
+        setLocation(data.location)
+        setEpisode(data.episode)
+        console.log(data)
+      } catch (err) {
+        console.log(err)
+      }
+    }
+    getSingleCharacter()
+  }, [characterId])
+```
+<img width="1426" alt="Screen Shot 2022-03-23 at 15 51 17" src="https://user-images.githubusercontent.com/91087641/159741125-38d93858-46bd-4947-9d8c-aa5c9450a297.png">
+
+#### Styling and Audio
+
+This was the first project in which I worked with the `SCSS`. `SCSS` made styling the `CSS` and positioning `HTML` elements much easier and smoother as we could use a wide range of colours and styles for classes quickly and effectively across the site. 
+
+We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasize this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
+
+We also added different sound effects from the show, the choice of these were tailored specific functions to enchance the user experiance. For example choosing Morty saying "What's you name?" when the user clicks to search a character by name.
