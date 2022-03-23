@@ -82,6 +82,13 @@ We also decided to use VSCode Liveshare for this project so we can collaborative
 
 ### Creating the Front End with React
 
+#### Creating Components and Getting the Data form the API
+
+* Character Index
+
+For displaying the characters, we created two components, the first component is CharacterIndex. We used used flexbox to display the characters in a grid. We used UseParams to then create links to the CharacterShow component which displayed specific information about each character.
+
+
 #### Styling and Audio
 
 This was the first project in which I worked with the `SCSS`. `SCSS` made styling the `CSS` and positioning `HTML` elements much easier and smoother as we could use a wide range of colours and styles for classes quickly and effectively across the site. 
@@ -89,3 +96,18 @@ This was the first project in which I worked with the `SCSS`. `SCSS` made stylin
 We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasize this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
 
 We also added different sound effects from the show, the choice of these were tailored specific functions to enchance the user experiance. For example choosing Morty saying "What's you name?" when the user clicks to search a character by name.
+
+```javascript
+useEffect(() => {
+    const getCharacters = async () => {
+      try {
+        const { data } = await axios.get('https://rickandmortyapi.com/api/character')
+        setCharacters(data.results)
+
+      } catch (err) {
+        setIsError(true)
+      }
+    }
+    getCharacters()
+  }, [])
+```
