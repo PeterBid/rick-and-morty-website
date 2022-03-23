@@ -103,6 +103,8 @@ useEffect(() => {
 ```
 <img width="1395" alt="Screen Shot 2022-03-23 at 15 50 47" src="https://user-images.githubusercontent.com/91087641/159740885-4c3e4f9f-203e-4f58-93b9-d212a836f0b1.png">
 
+* Filter Functionality
+
 A `useState` of `searchTerm` alongside a text form targeting what users typed as a search term for character names was used to create a function to `filter` out results for the `map`. 
 
 ```javascript
@@ -137,6 +139,8 @@ A `useState` of `searchTerm` alongside a text form targeting what users typed as
 ```
 <img width="721" alt="Screen Shot 2022-03-23 at 15 51 02" src="https://user-images.githubusercontent.com/91087641/159740977-1a9faa98-597f-40eb-a824-4df71550c7c7.png">
 
+* Character Show
+ 
 We used the `id` of each character to create a `characterID` which then used with `useParams` created links to the `CharacterShow` component. This was then used to return specific information related to each character.
 
 ```javascript
