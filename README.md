@@ -84,7 +84,7 @@ We also decided to use VSCode Liveshare for this project so we can collaborative
 
 #### Styling and Audio
 
-This was the first project in which I worked with the `SCSS`. `SCSS` made styling the and positioning `HTML` elements much easier and smoother as we could use a wide range of colours and styles for classes quickly and effectively across the site. 
+This was the first project in which I worked with the `SCSS`. `SCSS` made styling the `CSS` and positioning `HTML` elements much easier and smoother as we could use a wide range of colours and styles for classes quickly and effectively across the site. 
 
 We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasize this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
 
