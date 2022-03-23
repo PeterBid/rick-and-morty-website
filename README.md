@@ -137,7 +137,7 @@ A `useState` of `searchTerm` alongside a text form targeting what users typed as
 ```
 <img width="721" alt="Screen Shot 2022-03-23 at 15 51 02" src="https://user-images.githubusercontent.com/91087641/159740977-1a9faa98-597f-40eb-a824-4df71550c7c7.png">
 
-We used the `id` of each character to create a `characterID` which then used with `useParams` created links to the `CharacterShow` component. This was then used to displayed specific information related to each character.
+We used the `id` of each character to create a `characterID` which then used with `useParams` created links to the `CharacterShow` component. This was then used to return specific information related to each character.
 
 ```javascript
  const { characterId } = useParams()
