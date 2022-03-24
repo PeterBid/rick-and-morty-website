@@ -210,7 +210,9 @@ Planning. This project, espcially the the quick deadline, helped me understand t
 
 Pair Coding. I learned the importance of teamwork, and how to work productively as a pair. 
 
-Overall I was able to apply what I had learnt previouse and also learned much more doing this project. It was a real big confidence boost in understanding React and made me excited to use React future projects. I also really enjoyed pair coding, sharing ideas and solving problems together. It also made me look forward to coding in teams in the future.
+Overall I was able to apply what I had learnt previously and much more doing this project. 
+
+It was a real big confidence boost in understanding React and made me excited to use React future projects. I also really enjoyed pair coding, sharing ideas and solving problems together. Doing this project also made me look forward to coding in teams in the future.
 
 
 ## Contact
