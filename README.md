@@ -202,6 +202,15 @@ As well as a Characters API the Rick and Morty API Documentation also had a sepe
 
 ## Key Learnings
 
+The project strongly cemented my knowledge of React. It transformed my understanding from the theoretical to the practical. This was across a wide range of areas, such as State, Hooks, Components and Routes. During this project React became on of my favourite frameworks to work with, especially in enjoying the sense of building that comes from it.
+
+Using Axios. This project solidified my understanding of HTTP requests and using axios, for example reinforcing how asynchronous functions work and how promises are handled.
+
+Planning. This project, espcially the the quick deadline, helped me understand the importance of planning towards a minimum viable product effectively. Doing this helped us stay focused on what exactly was needed in the time frame and not get bogged down.
+
+Pair Coding. I learned the importance of teamwork, and how to work productively as a pair. 
+
+Overall I was able to apply what I had learnt previouse and also learned much more doing this project. It was a real big confidence boost in understanding React and made me excited to use React future projects. I also really enjoyed pair coding, sharing ideas and solving problems together. It also made me look forward to coding in teams in the future.
 
 
 ## Contact
