@@ -4,6 +4,22 @@
 
 <img width="1423" alt="Screen Shot 2022-03-22 at 16 16 42" src="https://user-images.githubusercontent.com/91087641/159525827-4ce2dbac-e8ca-4cc8-9b59-320d92192c95.png">
 
+## Table of Contents
+
+- [Brief](#brief)
+- [Deployment](#deployment)
+- [Team](#team)
+- [Concept](#concept-and-api-used)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Process](#process)
+- [Planning](#planning)
+- [Creating the Front End with React](#creating-the-front-end-with-react)
+- [Challenges and Wins](#challenges-and-wins)
+- [Future Improvements](#future-improvements)
+- [Key Learnings](#key-learnings)
+- [Contact](#contact)
+
 ## Brief 
 
 Create a **React** application that consumes a public **API**, utilising the knowledge gained from the first five weeks of the SEI course. The React application must have several **components** and a **router** with **several "pages"**.
