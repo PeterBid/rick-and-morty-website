@@ -41,9 +41,9 @@ Repository link: https://github.com/PeterBid/rick-and-morty-website
 
 ## Concept and API Used
 
-We Built a React app within 48 hours. As fans of Rick and Morty we decided to build a fun, visually striking and interactive Rick and Morty application with audio in which you would be able to view characters from the televsion series. 
+We Built a React app within 48 hours. As fans of Rick and Morty we decided to build a fun, visually striking and interactive Rick and Morty application with audio in which you would be able to view characters from the television series. 
 
-We then added the ability to filter characters by typing thier name and the click into character pages where the user could see more specific information about each character (Alive or Dead, Human or Alien, Male/Female/Unknown etc). 
+We then added the ability to filter characters by typing thier name and then click into character pages where the user could see more specific information about each character (Alive or Dead, Human or Alien, Male/Female/Unknown etc). 
 
 The API we used can be found here [Rick and Morty API Documentation](https://rickandmortyapi.com/)  
 
@@ -75,11 +75,11 @@ Start server with `yarn start`.
 
 ### Planning
 
-As this project's deadline was less than 48 hours after being given the brief, we had to quickly plan together. 
+As this project's deadline was less than 48 hours after being given the brief, we had to quickly make a plan together 
 
 We decided we should pick an API that we enjoyed the content of, but also one with enough data, images and good documentation to give ourselves the best advantage. After browsing through many public APIs, we found `The Rick and Morty API`, an ideal API that met our criteria.
 
-Afterwards we tested the API's responses and reaching specific endpoints by using `Insomnia` to ensure we were getting what we needed. This allowed us to plan out what information we wished to target upon each request to reach our minimum viable product.
+Afterwards we tested the API's responses and reached specific endpoints by using `Insomnia` to ensure we were getting what we needed. This allowed us to plan out what information we wished to target upon each request to reach our minimum viable product.
 
 Upon targeting each endpoint we then mapped out how we wished the site to look. We decided to keep our application simple with just a few "pages" so we could focus on reaching the minimum viable product and have something looking well polished with the features that are working as intended in the timeframe.
 
@@ -184,7 +184,7 @@ We used the `id` of each character to create a `characterID` which then used wit
 
 This was the first project in which I worked with the `SCSS`. `SCSS` made styling the `CSS` and positioning `HTML` elements much easier and smoother as we could use a wide range of colours and styles for classes quickly and effectively across the site. 
 
-We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasize this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
+We wished to create an application which reflected the Rick and Morty universe. We achieved this by having the colour scheme and styling of our website strongly imitate that of the television series. In order to emphasise this even further and make our website even more interactive, we added various images and gifs customly made using `Canva`. 
 
 We also added different sound effects from the show using the `useSound` package, the choice of these were tailored specific functions to enhance the user experience. For example choosing Morty saying "What's your name?" when the user clicks to search a character by name.
 
@@ -192,7 +192,7 @@ We also added different sound effects from the show using the `useSound` package
 
 #### Challenges
 
-Managing the short time in which to do the project. As this was only a 2 day project we had to rush a lot even with the planning we had made. There were also additional features we wished to put in but had to be pragmatic to ensure we were focused on reaching the minimum viable product in the time frame.
+Managing the short time in which to do the project. As this was only a 2 day project we had to work quickly, even with everything planned out. There were also additional features we wished to put in but had to be pragmatic to ensure we were focused on reaching the minimum viable product in the time frame.
 
 Ensuring we had access to data endpoints deep down in the API for the character show page. Although it took longer than anticipated we learnt a lot about accessing and retrieving data from API's generally.
 
